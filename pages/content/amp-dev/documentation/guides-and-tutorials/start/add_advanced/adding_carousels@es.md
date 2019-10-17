@@ -1,5 +1,8 @@
 ---
-$title: Agregar carruseles
+"$title": Agregar carruseles
+"$order": '3'
+description: Otra característica común en las páginas móviles es un carrusel. Puede
+  agregar carruseles fácilmente a las páginas AMP utilizando el componente amp-carrusel.
 ---
 
 Otra característica común en las páginas móviles es un carrusel. Puede agregar fácilmente carruseles a las páginas de AMP utilizando el componente de [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md). Comencemos con un ejemplo simple, como un carrusel de imágenes.
@@ -26,7 +29,9 @@ A continuación, insertemos un simple carrusel de imágenes con un diseño de re
 
 {{ image('/static/img/docs/tutorials/tut-advanced-carousel-simple.png', 412, 403, align='center half', caption='Carrusel de imágenes simples') }}
 
-El componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) se puede configurar de varias maneras. Intente **cambiar** el `type` de `carousel` a `slides`, y mire el resultado. Para asegurarse de que su contenido varíe y responda al tamaño de la pantalla, en el componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md), **cambie** el `layout` a `responsive`. Asegúrese de que su carrusel tiene valores de `width` y `height` definidos. Además, **agregue** el atributo `"layout=responsive"` a los elementos [`amp-img`](../../../../documentation/components/reference/amp-img.md).
+El componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) se puede configurar de varias maneras. Cambiemos la IU para mostrar solo una imagen a la vez y hacer que el diseño del carrusel responda.
+
+Intente {strong2}cambiar{/strong2} el `type` de `carousel` a `slides`, y mire el resultado. Para asegurarse de que su contenido varíe y responda al tamaño de la pantalla, en el componente {a6}`amp-carousel`{/a6}, {strong8}cambie{/strong8} el {code9}layout{/code9} a `responsive`. Asegúrese de que su carrusel tiene valores de `width` y `height` definidos. Además, **agregue** el atributo `"layout=responsive"` a los elementos [`amp-img`](../../../../documentation/components/reference/amp-img.md).
 
 **Vuelve a cargar** tu página. Ahora, en lugar de una lista desplegable de elementos, verá un elemento a la vez. Trate de **deslizar** horizontalmente para moverse a través de los elementos. Si pasa al tercer elemento, no podrá desplazarse más.
 
